@@ -1,0 +1,1515 @@
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins";
+}
+p{
+    font-family: "Poppins";
+}
+
+.custom-nav{
+    background: #CCD5AE;
+    height: 80px;
+}
+
+body{
+    overflow-x: hidden;
+} 
+
+.custom-nav-bar{
+    margin-top: 26px;
+    margin-left: 176px;
+}
+
+.custom-nav-link{
+    font-family: 'Poppins';
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none !important;
+}
+
+.custom-search{
+    margin-top: -15px !important;
+    width: 240px !important;
+    height: 48px !important;
+    border-radius: 100px;
+    border: 1px solid #8D1EFF;
+    margin-left: 80px !important;
+}
+
+a:hover {
+    color: #8A1DFF;
+  }
+
+.custom-logo{
+    margin-top: -5px;
+    margin-left: 50px;
+}
+
+.title-txt{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #8D1EFF;
+    font-weight: 800;
+}
+
+.custom-label{
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.custom-input-field{
+    width: 450px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.submit-btn{
+    border: 1px solid #8A1DFF;
+    background: #FF5F1F;
+    color: white;
+    width: 80px;
+    height: 48px;
+    margin-left: 10px;
+    font-family: 'Poppins';
+}
+
+.signin-btn{
+    border: 1px solid #8A1DFF;
+    background: #FF5F1F;
+    color: white;
+    width: 80px;
+    height: 48px;
+    font-family: 'Poppins';
+}
+
+.forgot-txt{
+    font-size: 16px;
+    margin-left: 226px;
+}
+
+.forgot-email-txt{
+    font-size: 16px;
+    margin-left: 255px;
+}
+
+
+.resend-btn{
+    border: 1px solid #8A1DFF;
+    background: #FF5F1F;
+    color: white;
+    width: 165px;
+    height: 48px;
+    margin-left: 10px;
+    font-family: 'Poppins';
+}
+
+.click-txt{
+    color: #FF5F1F;
+}
+
+.additional-txt{
+    font-size: 16px;
+}
+
+.dashboard-txt{
+    color: #8A1DFF;
+    font-weight: 600;
+    margin-top: 48px;
+    margin-left: 58px;
+}
+
+.custom-card{
+    border: 1px solid #8A1DFF;
+    width: 288px;
+    height: 288px;
+    border-radius: 20px;
+    background: rgb(255,249,246);
+    background: radial-gradient(circle, rgba(255,249,246,1) 0%, rgba(255,116,60,1) 100%);
+}
+
+.custom-card-another{
+    border: 1px solid #8A1DFF;
+    width: 288px;
+    height: 288px;
+    margin-top: 70px;
+    border-radius: 20px;
+    background: rgb(255,249,246);
+    background: radial-gradient(circle, rgba(255,249,246,1) 0%, rgba(255,116,60,1) 100%);
+    
+}
+
+
+.sidebar-bg{
+    background:#f8f8f8;
+    max-width: 352px;
+    height: auto;
+    position: relative;
+}
+
+.card-area-bg{
+    background: rgba(136, 134, 130, 0.075);
+    height: auto;
+}
+
+.card-icon{
+    width: 45px;
+}
+
+.card-txt{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+@media screen and (min-device-width: 1300px) and (max-device-width: 1399px) { 
+        .custom-nav-bar{
+            margin-top: 26px;
+            margin-left: 57px;
+        }
+
+        .actions-icon{
+            margin-left: -56px !important;
+        } 
+
+        .email-field {
+            width: 224px !important;
+            height: 48px;
+            background: #F8F8F8;
+            border: none;
+        }
+
+        .rest-field {
+            width: 143px !important;
+            height: 48px;
+            background: #F8F8F8;
+            border: none;
+        }
+    
+    }
+
+    @media screen and (min-device-width: 1400px) and (max-device-width: 1499px) { 
+        .custom-nav-bar {
+            margin-top: 26px;
+            margin-left: 116px;
+        }
+
+        .actions-icon{
+            margin-left: -56px !important;
+        } 
+
+        .email-field {
+            width: 224px !important;
+            height: 48px;
+            background: #F8F8F8;
+            border: none;
+        }
+
+        .rest-field {
+            width: 143px !important;
+            height: 48px;
+            background: #F8F8F8;
+            border: none;
+        }
+    
+    }
+
+    @media screen and (min-device-width: 1500px) and (max-device-width: 1599px) { 
+    
+        .large-screen-card-two{
+            margin-left: -40px;
+        }
+    
+        .large-screen-card-three{
+            margin-left: -78px;
+        }
+    
+        .custom-nav-bar{
+            margin-top: 26px;
+            margin-left: 180px;
+        }
+
+        .actions-icon{
+            margin-left: -86px !important;
+        } 
+
+        .email-field {
+            width: 260px !important;
+            height: 48px;
+            background: #F8F8F8;
+            border: none;
+        }
+
+        .rest-field {
+            width: 163px !important;
+            height: 48px;
+            background: #F8F8F8;
+            border: none;
+        }
+    }
+
+
+    @media screen and (min-device-width: 1600px) and (max-device-width: 1699px) { 
+    
+        .large-screen-card-two{
+            margin-left: -65px;
+        }
+    
+        .large-screen-card-three{
+            margin-left: -132px;
+        }
+    
+        .custom-nav-bar{
+            margin-top: 26px;
+            margin-left: 180px;
+        }
+
+        .actions-icon{
+            margin-left: -86px !important;
+        } 
+
+        .email-field {
+            width: 280px !important;
+            height: 48px;
+            background: #F8F8F8;
+            border: none;
+        }
+
+        .rest-field {
+            width: 183px !important;
+            height: 48px;
+            background: #F8F8F8;
+            border: none;
+        }
+    }
+
+    @media screen and (min-device-width: 1700px) and (max-device-width: 1799px) { 
+    
+        .large-screen-card-two{
+            margin-left: -86px;
+        }
+    
+        .large-screen-card-three{
+            margin-left: -172px;
+        }
+    
+        .custom-nav-bar{
+            margin-top: 26px;
+            margin-left: 180px;
+        }
+
+        .actions-icon{
+            margin-left: -96px !important;
+        } 
+
+        .email-field {
+            width: 300px !important;
+            height: 48px;
+            background: #F8F8F8;
+            border: none;
+        }
+
+        .rest-field {
+            width: 203px !important;
+            height: 48px;
+            background: #F8F8F8;
+            border: none;
+        }
+    }
+
+    @media screen and (min-device-width: 1800px) and (max-device-width: 1899px) { 
+    
+        .large-screen-card-two{
+            margin-left: -109px;
+        }
+    
+        .large-screen-card-three{
+            margin-left: -217px;
+        }
+    
+        .custom-nav-bar{
+            margin-top: 26px;
+            margin-left: 180px;
+        }
+
+        .actions-icon{
+            margin-left: -106px !important;
+        } 
+
+        .email-field {
+            width: 320px !important;
+            height: 48px;
+            background: #F8F8F8;
+            border: none;
+        }
+
+        .rest-field {
+            width: 205px !important;
+            height: 48px;
+            background: #F8F8F8;
+            border: none;
+        }
+    }
+
+
+
+@media screen and (min-device-width: 1900px) and (max-device-width: 3000px) { 
+    
+    .large-screen-card-two{
+        margin-left: -137px;
+    }
+
+    .large-screen-card-three{
+        margin-left: -274px;
+    }
+
+    .custom-nav-bar{
+        margin-top: 26px;
+        margin-left: 230px;
+    }
+
+    .actions-icon{
+        margin-left: -100px !important;
+    } 
+}
+
+.custom-margin{
+    padding-left: 32px;
+}
+
+.custom-profile{
+    position: absolute;
+    bottom: 0px;
+    right: -18px;
+}
+
+.profile-name-txt{
+    font-weight: 600;
+    position: relative;
+    margin: 0px;
+}
+
+.profile-email-txt{
+    font-weight: 600;
+}
+
+
+.custom-input-field-two{
+    width: 450px;
+    height: 48px;
+    background: #F8F8F8; 
+    border: none;
+}
+
+.personal-project-txt{
+    color: #8A1DFF;
+    font-weight: 600;
+    margin-top: 48px;
+    margin-left: 33px;
+}
+
+.pdf-font{
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.close-btn{
+    width: 12px;
+}
+
+.project-label-txt{
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+.project-input-filed{
+    width: 1040px !important;
+    height: 48px !important;
+    border: none;
+    background: #F8F8F8; 
+}
+
+.custom-txtarea{
+    height: 318px !important;
+    width: 1040px;
+    border: none;
+    background: #F8F8F8; 
+}
+
+.project-file-txt{
+    font-size: 16px;
+    padding: 0px 5px;
+}
+
+.custom-sidebar-menu{
+    margin-left: 153px;
+    border: none;
+    font-weight: 600;
+    color: black;
+    font-size: 16px;
+    text-decoration: none !important;
+    padding-bottom: 18px;
+    font-family: 'Poppins';
+}
+
+.item-margin-top{
+    margin-top: 122px;
+}
+
+.custom-checkbox{
+    width: 30px;
+    height: 26px;
+}
+
+.custom-input-filed-deadline{
+    width: 576px !important;
+    height: 48px !important;
+    background: #F8F8F8;
+    border: none !important;
+}
+
+.deadline-txt{
+    font-size: 16px;
+    font-family: "Poppins";
+}
+
+.day-btn-margin{
+    margin-top: 5px;
+    background: black;
+    width: 96px;
+    height: 31px;
+    border-radius: 0rem;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 3px;
+}
+
+.save-area{
+    float: right;
+}
+
+.save-btn{
+    border: 1px solid #8A1DFF;
+    background: #FF5F1F;
+    color: white;
+    width: 154px;
+    height: 48px;
+    margin-left: 10px;
+    font-family: 'Poppins';
+}
+
+@media screen and (min-device-width: 1300px) and (max-device-width: 1499px) { 
+    
+    .custom-input-filed-deadline {
+        width: 400px !important;
+        height: 48px !important;
+        background: #F8F8F8;
+        border: none !important;
+    }
+
+
+    .custom-checkbox{
+        margin-left: 18px;
+    }
+
+    .deadline-txt{
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-device-width: 1500px) and (max-device-width: 1699px) { 
+    
+    .custom-input-filed-deadline {
+        width: 500px !important;
+        height: 48px !important;
+        background: #F8F8F8;
+        border: none !important;
+    }
+
+    .deadline-txt{
+        font-size: 13px;
+    }
+
+    .custom-checkbox{
+        margin-left: 18px;
+    }
+}
+
+@media screen and (min-device-width: 1700px) and (max-device-width: 1919px) { 
+    
+    .custom-input-filed-deadline {
+        height: 48px !important;
+        background: #F8F8F8;
+        border: none !important;
+    }
+
+    .custom-checkbox{
+        margin-left: 18px;
+    }
+
+    deadline-txt{
+        font-size: 14px;
+    }
+}
+
+ /* input[type=checkbox] {
+    outline: 2px solid #c00;
+  } */
+
+
+  .email-field{
+    width: 320px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+  }
+
+  .input-margin-top{
+      margin-top: 10px;
+  }
+
+  .rest-field{
+    width: 208px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+  }
+
+  .add-btn{
+    border: 1px solid #8A1DFF;
+    background: #FF5F1F;
+    color: white;
+    width: 100px;
+    height: 48px;
+    margin-left: 10px;
+    font-family: 'Poppins';
+  }
+
+  .custom-support-input-filed{
+    width: 336px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+  }
+
+  .protocol-txt{
+    margin-top: -23px;
+  }
+
+  .custom-checkbox-support{
+    width: 30px;
+    height: 26px;
+    margin-left: 8px;
+  }
+
+  .custom-checkbox-support-2{
+      margin-top: 15px !important;
+  }
+
+  
+
+
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #8a1dff;
+    border-color: #8a1dff;
+}
+
+.csv-btn{
+    border: 1px solid #8A1DFF;
+    background: #FF5F1F;
+    color: white;
+    width: 120px;
+    height: 29px;
+    font-family: 'Poppins';
+    margin-top: 44px;
+    margin-left: 218px;
+}
+
+@media screen and (min-device-width: 1900px) and (max-device-width: 3000px) { 
+    
+    .checkbox-for-support{
+        margin-left: 40px;
+    }
+
+    .display-field{
+        width: 288px !important;
+        height: 48px;
+        background: #F8F8F8;
+        border: none;
+    }
+
+
+    .doccument-field {
+        width: 420px !important;
+        height: 48px;
+        background: #F8F8F8;
+        border: none;
+    }
+
+    .arrow-down-icon {
+        margin-left: -50px !important;
+    }
+    
+   
+}
+
+/* .table td, .table th {
+    
+     border-top: none; 
+     padding: 0.3rem !important;
+} */
+
+.all-txt{
+    font-size: 16px;
+    font-family: "Poppins";
+}
+
+.download-and-del-icon{
+    text-align: center;
+}
+
+.display-field{
+    width: 184px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.csutom-checkbox-assign{
+    margin-left: -6px;
+    margin-top: 29px;
+}
+
+.extra-border{
+    border-bottom: 2px solid #8A1DFF;
+    margin-top: 13px;
+}
+
+@media screen and (min-device-width: 1300px) and (max-device-width: 1900px) { 
+    
+    .all-txt{
+        font-size: 14px;
+    }
+    
+   
+}
+
+.file-size-field{
+    width: 98px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.file-type-limit{
+    width: 154px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+
+.doccument-field{
+    width: 220px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.template-field{
+    width: 110px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.mb-txt{
+    font-weight: 800;
+    font-size: 16px;
+    margin-left: -47px;
+    background: #F8F8F8;
+}
+
+.mb-txt-doc{
+    font-weight: 800;
+    font-size: 16px;
+    margin-left: -47px;
+    background: #e2e0e0;
+}
+
+.arrow-down-icon{
+    margin-left: -28px;
+}
+
+
+
+.project-input-filed-summary{
+    height: 48px !important;
+    border: none;
+    background: #F8F8F8;
+}
+
+.project-details{
+    font-weight: 600;
+}
+
+.deadline-field{
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.deadline-field-across{
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.all-last-field{
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.project-name-input-filed-summary{
+    height: 48px !important;
+    border: none;
+    background: #F8F8F8;
+}
+
+
+@media screen and (min-device-width: 1300px) and (max-device-width: 1500px) { 
+    
+    .project-name-input-filed-summary{
+     width: 875px;
+    }
+
+    .deadline-field{
+        width: 320px;
+    }
+
+    .deadline-field-margin{
+       margin-left: -289px;
+    }
+
+    .deadline-field-across{
+        width: 456px;
+    }
+    
+   
+}
+
+
+.pricing-input-field{
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+    width: 100%;
+}
+
+.avg-txt{
+    font-size: 13px;
+}
+
+.active-txt-price{
+    width: 141px;
+    font-size: 13px;
+}
+
+.total-storage-txt{
+    font-size: 13px;
+    width: 150px;
+}
+
+
+.num-txt-price{
+    font-size: 15px;
+    color: #FF6D33;
+}
+
+.nums-txt-price{
+    margin-top: 26px;
+    font-size: 15px;
+    color: #FF6D33;
+}
+
+.bronze-btn{
+    padding: 7px 24px;
+    background: #CD7F32;
+    border-color: #871AFF;
+    border-radius: 20px;
+    border: 2px solid #871AFF;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.silver-btn{
+    padding: 7px 24px;
+    background: #C0C0C0;
+    border-color: #871AFF;
+    border-radius: 20px;
+    border: 2px solid #871AFF;
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+}
+
+.gold-btn{
+    padding: 7px 24px;
+    background: #FFD700;
+    border-color: #871AFF;
+    border-radius: 20px;
+    border: 2px solid #871AFF;
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+}
+
+.platinum-btn{
+    padding: 7px 24px;
+    background: #E5E4E2;
+    border-color: #871AFF;
+    border-radius: 20px;
+    border: 2px solid #871AFF;
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+}
+
+.price-card{
+    border-radius: 33px;
+    border: 4px solid #871AFF;
+    height: 254px;
+}
+
+.switch-icon{
+    margin-left: 30px;
+    height: 31px;
+}
+
+.annual-txt{
+    margin-left: 14px;
+}
+
+.monthly-txt{
+    margin-left: 20px;
+}
+
+.update-btn-price{
+    margin: 0px auto;
+}
+
+
+.projectname-filed{
+    width: 220px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+    padding-top: 12px;
+}
+
+.start-date-field{
+    width: 120px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.initiated-field{
+    width: 138px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.role-field{
+    width: 150px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.type-filed{
+    width: 76px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.active-colloraborator-filed{
+    width: 120px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.custom-view-icon{
+    height: 18px;
+    width: auto;
+    padding-right: 4px;
+  }
+
+  .custom-svg-icon{
+    height: 14px;
+    width: auto;
+    padding-right: 4px;
+}
+
+
+.custom-icon-flex{
+    display: flex;
+    margin-left: -15px;
+}
+
+.table2 td, .table2 th {
+    
+     border-top: none; 
+     padding: 0.3rem !important;
+     vertical-align: top
+}
+
+form {
+overflow-x: auto ;
+}
+/* 
+.table thead th {
+    border-bottom: 2px solid #8a1dff;
+    font-family: 'Poppins';
+}
+.table td, .table th {
+    border-top: 1px solid #8a1dff;
+} */
+
+.active-table{
+    border-bottom: 2px solid #8a1dff;
+}
+
+.active-table-top-bottom{
+    border-bottom: 2px solid #8a1dff !important;
+    border-top: 2px solid #8a1dff !important;
+}
+
+.status-field{
+    width: 82px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+    padding-top: 12px;
+}
+
+.submission-status-filed{
+    width: 75px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+    padding-top: 12px;
+}
+
+.save-decision-btn{
+    border: 1px solid #8A1DFF;
+    background: #FF5F1F;
+    color: white;
+    width: 141px;
+    height: 48px;
+    font-family: 'Poppins';
+}
+
+
+.custom-border-hide{
+    border-top: none !important;
+}
+
+
+.active-table-two{
+    border-top: 2px solid #8a1dff;
+    border-bottom: 2px solid #8a1dff;
+}
+
+.notes-field{
+    width: 220px;
+    height: 30px;
+    background: #F8F8F8;
+    border: none;
+    color: #9c9595;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+
+.approval-field{
+    width: 150px;
+    height: 30px;
+    background: #F8F8F8;
+    border: none;
+    font-family: 'Poppins';
+}
+
+.doccu-txt{
+    font-family: "Poppins";
+}
+
+.download-icon-price-details{
+    margin-left: 20px;
+}
+
+.download-all-btn{
+    border: 1px solid #8A1DFF;
+    background: #FF5F1F;
+    color: white;
+    width: 180px;
+    height: 48px;
+    font-family: 'Poppins';
+}
+
+.custom-txtarea-team{
+    background: #F8F8F8;
+    height: 318px !important;
+    border: none;
+}
+
+.download-icon-price{
+    margin-left: -26px;
+}
+
+.close-icon-price{
+    padding-left: 5px;
+    height: 17px;
+}
+
+.another-add-icon{
+    margin-left: 12px;
+    height: 48px;
+}
+.doccument-img{
+    padding-top: 12px;
+}
+
+.team-blank-txt{
+    padding-top: 12px;
+}
+
+.custom-team-dropdown{
+    font-family: "Poppins";
+}
+
+.upload-btn-uploaddocs{
+    border: 1px solid #8A1DFF;
+    background: #FF5F1F;
+    color: white;
+    width: 110px;
+    height: 48px;
+    margin-left: 10px;
+    font-family: 'Poppins';
+}
+
+
+.submit-upload-btn{
+    border: 1px solid #8A1DFF;
+    background: #FF5F1F;
+    color: white;
+    width: 221px;
+    height: 48px;
+    margin-left: 10px;
+    font-family: 'Poppins';
+}
+
+.file-type-limit-field-upload{
+    width: 152px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.upload-icon-doccument{
+    margin-left: -28px;
+    margin-top: 20px;
+}
+
+
+.profile-field{
+    width: 265px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.profile-picture-field{
+    width: 134px;
+    height: 48px;
+    background: #F8F8F8;
+    border: none;
+}
+
+.profile-icon{
+    margin-top: 22px;
+    margin-left: -5px;
+}
+
+.profile-close-icon{
+    margin-top: 22px;
+}
+
+.active-custom-menu{
+    color: #FF5F1F;
+}
+
+.table-for-collaborator{
+    margin-top: 1rem;
+}
+
+
+@media screen and (min-device-width: 1100px) and (max-device-width: 3000px) { 
+    .sticky-not-visible{
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 400px) { 
+    
+    
+    .menu-mobile{
+        font-size: 12px;
+        margin-left: 0px;
+        padding-left: 5px;
+    }
+    
+    
+    .personal-project-txt{
+        
+        font-size: 22px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .custom-mobile-hidden{
+        visibility: hidden;
+    }
+
+    .item-margin-top-mob{
+        margin-top: 0px;
+        display: block;
+    }
+
+    
+    
+    .project-input-filed{
+        width: 338px !important;
+    }
+    .custom-txtarea{
+        height: 123px !important;
+        width: 338px !important;
+    }
+
+    .submit-btn{
+        margin-left: 0px;
+    }
+   
+    .save-area{
+        display: flex;
+        padding-top: 20px;
+    }
+
+    .sticky-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1000000;
+        background: white;
+        padding: 0px 20px 0px 20px;
+        border-bottom: 1px solid #f4f1f1;
+    }
+
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidebar  a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+        font-family: "Poppins";
+      }
+      
+      .sidebar  a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidebar  .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 24px;
+        margin-left: 50px;
+      }
+
+    .profile-email-txt{
+        font-size: 11px;
+        margin-left: -55px;
+        color: #635555;
+        font-weight: 100;
+    }
+
+    .profile-name-txt{
+        font-size: 11px;
+        color: #635555;
+        font-weight: 100;
+        margin-left: 13px;
+        margin-top: 10px;
+
+    }
+
+    .profile-img-mob{
+        float: right;
+        margin-top: -53px;
+        margin-right: 18px;
+    }
+
+    .sidebar-bg{
+        padding: 25px;
+        width: auto;
+    }
+
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: #73726c;
+        padding: 10px 15px;
+        border: none;
+        background: none;
+        margin-left: -20px;
+    }
+
+    .save-btn{
+        width: 141px;
+    }
+
+    .project-file-txt{
+        font-size: 12px;
+    }
+
+    .close-btn {
+        width: 8px;
+    }
+
+    .pdf-font{
+        height: 20px;
+    }
+
+    .custom-input-field-two{
+        width: 245px;
+    }
+
+    .custom-search {
+        margin-top: 0px !important;
+        width: 220px !important;
+        height: 36px !important;
+        border-radius: 100px;
+        border: 1px solid #8D1EFF;
+        margin-left: 10px !important;
+    }
+
+    .custom-margin {
+        padding-left: 0px;
+    }
+
+    .mobile-sidebar-menu {
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+        padding: 10px 15px;
+        background: #F8F8F8;
+      }
+      
+      .mobile-sidebar-menu li {
+        float: left;
+      }
+      
+      .mobile-sidebar-menu li a {
+        display: block;
+        text-align: left;
+        padding: 5px 7px;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+        color: black;
+        font-family: "Poppins";
+        font-size: 11px;
+      }
+
+      .active-custom-menu-mob{
+          color: #FF5F1F !important;
+      }
+
+      .deadline-menu-txt{
+        margin-left: 28px;
+      }
+
+      .collarborators-menu-txt{
+        margin-left: 55px;
+      }
+
+      .project-summary-menu-txt{
+          margin-left: 30px;
+      }
+
+      .start-project-menu-txt{
+        margin-left: 14px;
+      }
+
+    .logo-for-mob{
+        width: 220px;
+        margin-left: 14px;
+    }
+
+    form {
+        overflow-x: auto ;
+    }
+
+    .table-for-mobile{
+        margin-top: 1rem;
+    }
+
+    .csv-for-mobile{
+        margin-left: 0px;
+    }
+
+    .add-btn-mobile{
+        margin-left: 0px;
+    }
+
+   
+    p{
+        font-size: 12px;
+    }
+
+    .all-txt{
+        font-size: 12px;
+    }
+
+    .deadline-txt{
+        font-size: 12px;
+    }
+
+
+    .custom-checkbox {
+        margin-left: 20px;
+    }
+
+    .custom-logo-signin{
+        margin-left: 35px;
+    }
+
+    .title-txt-login{
+        margin-left: 8px;
+    }
+
+    .custom-label{
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+
+    .input-field-signup-mobile {
+        width: 353px;
+        height: 48px;
+        background: #F8F8F8;
+        border: none;
+    }
+
+    .forgot-email-txt {
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    .forgot-txt{
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    .additional-txt {
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    .price-card-mobile{
+        margin-top: 20px;
+    }
+
+    .price-card-hide-for-mob{
+        display: none;
+    }
+
+    .project-label-txt {
+        font-size: 12px;
+    }
+
+    .mb-txt-doc {
+        margin-left: 0px;
+    }
+
+    .upload-icon-doccument {
+        margin-left: 0px;
+    }
+
+    .title-txt-mobile{
+        text-align: center;
+    }
+
+    .thanks-txt-mobile{
+        text-align: center;
+    }
+
+    .signin-btn-mobile{
+        margin-left: 143px;
+    }
+
+    .profile-icon {
+        margin-top: 124px;
+    }
+
+    .profile-field{
+        width: 150px;
+        height: 48px;
+        background: #F8F8F8;
+        border: none;
+    }
+
+    .profile-icon {
+        margin-top: 0px;
+    }
+
+    .profile-close-icon {
+        margin-top: 2px;
+    }   
+
+    .profile-img-mob-projectdetails{
+        margin-right: 8px;
+    }
+}
